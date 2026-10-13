@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurion-primary.dia",
+    "emit-module-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurion-primary-emit-module.d",
+    "emit-module-diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurion-primary-emit-module.dia",
+    "pch" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurion-primary-Bridging-header.pch",
+    "swift-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurion-primary.swiftdeps"
+  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift" : {
+    "const-values" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.swiftconstvalues",
+    "dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.d",
+    "diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.dia",
+    "index-unit-output-path" : "/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.o",
+    "llvm-bc" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.bc",
+    "object" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.o",
+    "swift-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView.swiftdeps",
+    "swiftmodule" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/AgendaView~partial.swiftmodule"
+  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift" : {
+    "const-values" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift" : {
+    "const-values" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift" : {
+    "const-values" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.swiftconstvalues",
+    "dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.d",
+    "diagnostics" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.dia",
+    "index-unit-output-path" : "/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.o",
+    "llvm-bc" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.bc",
+    "object" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.o",
+    "swift-dependencies" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp.swiftdeps",
+    "swiftmodule" : "/home/ulysse/Documents/GitHub/webaurion/.build/out/Intermediates.noindex/webaurion.build/Debug-iphoneos/webaurion-t.build/Objects-normal/arm64/webaurionApp~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,4 @@
+module webaurion {
+header "webaurion-Swift.h"
+export *
+}

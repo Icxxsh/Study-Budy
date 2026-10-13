@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'webaurion-App-product' in project 'webaurion-Builder'
+Target 'webaurion-App-product' in project 'webaurion-Builder'
+➜ Explicit dependency on target 'webaurion-product' in project 'webaurion'
+Target 'webaurion-product' in project 'webaurion'
+➜ Explicit dependency on target 'webaurion' in project 'webaurion'
+Target 'webaurion' in project 'webaurion' (no dependencies)

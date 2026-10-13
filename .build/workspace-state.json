@@ -4,7 +4,20 @@
 
     ],
     "dependencies" : [
-
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "webaurion",
+          "kind" : "fileSystem",
+          "location" : "/home/ulysse/Documents/GitHub/webaurion",
+          "name" : "webaurion"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/home/ulysse/Documents/GitHub/webaurion"
+        },
+        "subpath" : "webaurion"
+      }
     ],
     "prebuilts" : [
 

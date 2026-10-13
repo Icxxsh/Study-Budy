@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/primary.swiftdeps"
+  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift": {
+    "dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView.d",
+    "object": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView.swift.o",
+    "swiftmodule": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView~partial.swiftmodule",
+    "swift-dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView.swiftdeps",
+    "diagnostics": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView.dia"  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift": {
+    "dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView.d",
+    "object": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView.swift.o",
+    "swiftmodule": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView.swiftdeps",
+    "diagnostics": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView.dia"  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift": {
+    "dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView.d",
+    "object": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView.swift.o",
+    "swiftmodule": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView.swiftdeps",
+    "diagnostics": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView.dia"  },
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift": {
+    "dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp.d",
+    "object": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp.swift.o",
+    "swiftmodule": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp~partial.swiftmodule",
+    "swift-dependencies": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp.swiftdeps",
+    "diagnostics": "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp.dia"  }
+}

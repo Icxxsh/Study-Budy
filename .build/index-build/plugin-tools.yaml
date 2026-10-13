@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<webaurion-x86_64-unknown-linux-gnu-debug.module>"]
+  "test": ["<webaurion-x86_64-unknown-linux-gnu-debug.module>"]
+  "webaurion-x86_64-unknown-linux-gnu-debug.module": ["<webaurion-x86_64-unknown-linux-gnu-debug.module>"]
+default: "main"
+nodes:
+  "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"]
+    outputs: ["/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt"
+
+  "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift"]
+    outputs: ["/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources"]
+    description: "Write auxiliary file /home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources"
+
+  "<webaurion-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/webaurion.swiftmodule"]
+    outputs: ["<webaurion-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "C.webaurion-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift","/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources"]
+    outputs: ["/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/webaurion.swiftmodule"]
+    description: "Compiling Swift Module 'webaurion' (4 sources)"
+    args: ["/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc","-module-name","webaurion","-emit-dependencies","-emit-module","-emit-module-path","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/webaurion.swiftmodule","-output-file-map","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/output-file-map.json","-parse-as-library","-incremental","@/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources","-I","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/include/webaurion-Swift.h","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-g","-Xcc","-fPIC","-Xcc","-g","-package-name","webaurion","-Xcc","-fno-omit-frame-pointer"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/","/home/ulysse/Documents/GitHub/webaurion/Package.swift","/home/ulysse/Documents/GitHub/webaurion/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

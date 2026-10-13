@@ -1,0 +1,234 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.webaurion-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "fileList" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources",
+      "importPath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "webaurion",
+      "moduleOutputPath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/webaurion.swiftmodule",
+      "objects" : [
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/AgendaView.swift.o",
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/ContentView.swift.o",
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/SettingsView.swift.o",
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/webaurionApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/include/webaurion-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "webaurion",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/webaurion.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift",
+        "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift",
+        "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift",
+        "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift"
+      ],
+      "tempsPath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "webaurion" : [
+      "/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "-module-name",
+      "webaurion",
+      "-package-name",
+      "webaurion",
+      "-c",
+      "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift",
+      "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift",
+      "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift",
+      "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift",
+      "-I",
+      "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/include/webaurion-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "webaurion",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "webaurion" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version--6A10AB39793966D0.txt"
+    },
+    "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/AgendaView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/ulysse/Documents/GitHub/webaurion/Sources/webaurion/webaurionApp.swift"
+        }
+      ],
+      "outputFilePath" : "/home/ulysse/Documents/GitHub/webaurion/.build/index-build/x86_64-unknown-linux-gnu/debug/webaurion.build/sources"
+    }
+  }
+}

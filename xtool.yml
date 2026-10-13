@@ -1,0 +1,6 @@
+version: 1
+bundleID: com.example.webaurion
+product: webaurion
+infoPath: Support/App-Info.plist
+entitlementsPath: Support/App.entitlements
+iconPath: Support/AppIcon.png
